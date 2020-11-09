@@ -1,0 +1,42 @@
+.blogpost { 
+display: flex;
+justify-content: space-evenly;
+height: 500px;
+
+
+}
+.blogpost div{ width:200px; border: 1px solid blue;
+    justify-content: space-evenly;
+
+}
+
+.pic1{
+    order:3;
+  
+}
+.pic2{
+    order:0;
+    
+   
+    
+    
+
+  
+}
+.pic3{
+ order:1;
+ align-self: flex-end;
+
+    
+}
+.pic4{
+   order:2;
+   align-self: center;
+    
+}
+.pic5{
+   order:4;
+   float: shrink 2px;
+   
+    
+}
